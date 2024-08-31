@@ -8,11 +8,11 @@ This project is a simple UNIX shell that mimics basic functionalities of a stand
 - Background Execution: Allows commands to be run in the background by appending an ampersand (&) at the end of the command.
 - Command History: Stores the last 10 commands issued and allows the user to re-execute commands from history using ! followed by the command index or !! for the most recent command.
 - Built-in Commands:
-	exit: Exits the shell.
-	pwd: Prints the current working directory.
-	cd: Changes the current working directory.
-	help: Displays help information for built-in commands.
-	history: Displays the list of last 10 commands executed.
+	- exit: Exits the shell.
+	- pwd: Prints the current working directory.
+	- cd: Changes the current working directory.
+	- help: Displays help information for built-in commands.
+	- history: Displays the list of last 10 commands executed.
 
 ## Usage
 1) Compile the shell program using Makefile: make
